@@ -1,7 +1,15 @@
 \documentclass{article}
 \usepackage{graphicx, listings, xcolor}
+\usepackage[a4paper, margin=1cm]{geometry}
+\definecolor{bgcolor}{rgb}{0.9,0.95,1.0}
 
-\begin{document}
+\begin{document}]
+    basicstyle=\ttfamily,
+    backgroundcolor=\color{bgcolor},
+    commentstyle=\color{green}
+    keywordstyle=\color{magenta}
+    numberstyle=\tiny\color{blue}
+    
     \lstinputlisting[language=C]{mandelbrot.c}
     \includegraphics{mandelek.pdf}
 \end{document}
