@@ -1,3 +1,3 @@
 set term pdf
 set output 'mandelek.pdf'
-plot mandelbrot.c '<./a.out'
+plot '<./a.out'
