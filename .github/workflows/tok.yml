@@ -9,3 +9,6 @@ jobs:
       - run: sudo apt-get install gnuplot-nox
       - run: gnuplot mandelek.gpi
       - run: ls
+      - uses: actions/upload-artifact@v4
+      with:
+        path: mandelek.pdf
