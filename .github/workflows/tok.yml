@@ -7,3 +7,5 @@ jobs:
       - uses: actions/checkout@v4
       - run: gcc mandelbrot.c -lm
       - run: sudo apt-get install gnuplot-nox
+      - run: gnuplot mandelek.gpi
+      - run: ls
