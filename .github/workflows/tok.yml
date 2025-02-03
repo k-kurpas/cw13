@@ -9,6 +9,7 @@ jobs:
       - run: sudo apt-get install gnuplot-nox texlive
       - run: gnuplot mandelek.gpi
       - run: pdflatex latech.tex
+      - run: pdflatex latech.tex
       - run: ls
       - uses: actions/upload-artifact@v4
         with:
